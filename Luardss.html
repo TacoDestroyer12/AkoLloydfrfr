@@ -1,39 +1,61 @@
+
 <!DOCTYPE html>
 <html>
+
 <head>
- 
- <style> 
+    <style>
+        a {
+            color: white;
+        }
 
-a {color: white;}
+        body {
+            background-image: url(ghibli.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
 
-body{
+        
+        audio,
+        video {
+            width: 100%;
+            max-width: 400px; /* Adjust the max-width as needed */
+            margin: 10px auto;
+        }
 
-	background-image:url(ghibli.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-}
+        h3 {
+            text-align: center;
+        }
 
- </style>
-	<title> My first website </title>
+        h2 {
+            position: absolute;
+            bottom: 5;
+            left: 10px;    
+
+        @media only screen and (max-width: 600px) {
+            h3 {
+                font-size: 14px; /* Adjust the font size for smaller screens */
+            }
+        }
+    </style>
+    <title>My first website</title>
 </head>
 
+<body>
+    <h1><em>Rain by Sarah Geronimo</em></h1>
 
+    <audio controls>
+        <source src="Sarah.mp3" type="audio/mp3">
+    </audio>
 
-<center> 
-<body text="white">
-<h1> <em> Rain by Sarah Geronimo</em> </h1>
-
-<audio controls>
-
-<source src="Sarah.mp3" type="Audio/mp3">
-
-
-</audio>
-
-<h3>
-<br>Rain gently falls whenever we say "goodnight"
-<br>Falling like when you're out of sight
+<center>
+    <h3>
+        <br>Rain gently falls whenever we say "goodnight"
+        <br>Falling like when you're out of sight
 <br>Rain follows me even in my bed
 <br>And rain is the tears that I shed
 <br>There'll be no sunshine in my life
@@ -70,36 +92,22 @@ body{
 <br>It can never be mine
 <br>Whoa, whoa, whoa
 <br>It can never be mine
-</h3>
+    </h3>
+</center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
+    <h1>Other popular hits by Sarah G.</h1>
+
+    <video width="320" height="240" controls>
+        <source src="SarahG.mp4" type="video/mp4">
+    </video>
+
+<a href="Luardo.html" target="_self">
+        <h2>HOME</h2>
 </body>
 
-</center>
-
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-<center>
-
-<h1>Other popular hits by Sarah G.</h1>
-
-<video width="320" height="240" controls>
-<source src="SarahG.mp4" s type="">
-
-</video>
-</center>
-<a href="index.html" target="_self"> 	 <h2>HOME</h2>   </a>
-
-
-
-
-
-
-</body>
 </html>
