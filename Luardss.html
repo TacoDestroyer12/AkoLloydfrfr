@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -9,17 +8,22 @@
         }
 
         body {
-            background-image: url(ghibli.jpg);
+            background-image: url('ghibli.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
+            background-position: center;
             color: white;
             text-align: center;
             margin: 0;
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
         }
 
-        
         audio,
         video {
             width: 100%;
@@ -29,12 +33,24 @@
 
         h3 {
             text-align: center;
+            font-size: 18px; /* Adjust the font size as needed */
+            max-width: 800px; /* Adjust the max-width as needed */
+            margin: 0 auto;
         }
 
         h2 {
             position: absolute;
-            bottom: 5;
-            left: 10px;    
+            bottom: 5px;
+            left: 10px;
+            font-size: 20px; /* Adjust the font size as needed */
+        }
+
+        a.home-link {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+            font-size: 18px; /* Adjust the font size as needed */
+        }
 
         @media only screen and (max-width: 600px) {
             h3 {
@@ -52,53 +68,48 @@
         <source src="Sarah.mp3" type="audio/mp3">
     </audio>
 
-<center>
-    <h3>
+    <center>
+        <h3>
+             <br>Rain gently falls whenever we say "goodnight"
+        <br>Falling like when you're out of sight
+        <br>Rain follows me even in my bed
+        <br>And rain is the tears that I shed
+        <br>There'll be no sunshine in my life
+        <br>Until you say you're mine, oh, mine
+        <br>There'll be no summer, spring or fall
+        <br>Each day is like winter time
+        <br>But I can never say I care
+        <br>I know it won't be smart
+        <br>Somebody owns your heart
+        <br>It can never be mine
+        <br>So it rains when you're near, knowing we can't even touch
+        <br>Rain knows that I love you so much
+        <br>But I know that my love will only cause you pain
+        <br>So I'd rather live with the rain
+        <br>There'll be no sunshine in my life
+        <br>Until you say you're mine, oh, mine
+        <br>There'll be no summer, spring or fall
+        <br>Each day is like winter time
+        <br>But I can never say I care
+        <br>I know it won't be smart
+        <br>Somebody owns your heart
+        <br>It can never be mine
         <br>Rain gently falls whenever we say "goodnight"
         <br>Falling like when you're out of sight
-<br>Rain follows me even in my bed
-<br>And rain is the tears that I shed
-<br>There'll be no sunshine in my life
-<br>Until you say you're mine, oh, mine
-<br>There'll be no summer, spring or fall
-<br>Each day is like winter time
-<br>But I can never say I care
-<br>I know it won't be smart
-<br>Somebody owns your heart
-<br>It can never be mine
-<br>So it rains when you're near, knowing we can't even touch
-<br>Rain knows that I love you so much
-<br>But I know that my love will only cause you pain
-<br>So I'd rather live with the rain
-<br>There'll be no sunshine in my life
-<br>Until you say you're mine, oh, mine
-<br>There'll be no summer, spring or fall
-<br>Each day is like winter time
-<br>But I can never say I care
-<br>I know it won't be smart
-<br>Somebody owns your heart
-<br>It can never be mine
-<br>Rain gently falls whenever we say "goodnight"
-<br>Falling like when you're out of sight
-<br>Rain follows me even in my bed
-<br>And rain is the tears that I shed
-<br>There'll be no sunshine in my life
-<br>Until you say you're mine, oh, mine
-<br>There'll be no summer, spring or fall
-<br>Each day is like winter time
-<br>But I can never say I care
-<br>I know it won't be smart
-<br>Somebody owns your heart
-<br>It can never be mine
-<br>Whoa, whoa, whoa
-<br>It can never be mine
-    </h3>
-</center>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+        <br>Rain follows me even in my bed
+        <br>And rain is the tears that I shed
+        <br>There'll be no sunshine in my life
+        <br>Until you say you're mine, oh, mine
+        <br>There'll be no summer, spring or fall
+        <br>Each day is like winter time
+        <br>But I can never say I care
+        <br>I know it won't be smart
+        <br>Somebody owns your heart
+        <br>It can never be mine
+        <br>Whoa, whoa, whoa
+        <br>It can never be mine
+        </h3>
+    </center>
 
     <h1>Other popular hits by Sarah G.</h1>
 
@@ -106,8 +117,9 @@
         <source src="SarahG.mp4" type="video/mp4">
     </video>
 
-<a href="index.html" target="_self">
+    <a href="Luardo.html" class="home-link" target="_self">
         <h2>HOME</h2>
+    </a>
 </body>
 
 </html>
